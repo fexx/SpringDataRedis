@@ -2,7 +2,9 @@
 
 # inserindo dados
 curl -X POST -i -H "Content-Type: application/json" 'http://localhost:8080/pessoa' --data '{"id": "1","nome": "Fernando","sobrenome": "Evangelista"}'
+
 curl -X POST -i -H "Content-Type: application/json" 'http://localhost:8080/pessoa' --data '{"id": "1","nome": "Carlos","sobrenome": "Oliveira"}'
+
 curl -X POST -i -H "Content-Type: application/json" 'http://localhost:8080/pessoa' --data '{"id": "1","nome": "Carmo","sobrenome": "Silveira"}'
 
 # listando dados
